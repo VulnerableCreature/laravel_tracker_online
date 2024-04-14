@@ -35,7 +35,7 @@
                     ></path>
                 </svg>
             </button>
-            <a href="https://flowbite.com" class="flex items-center justify-between mr-4">
+            <a href="{{ route('main.index') }}" class="flex items-center justify-between mr-4">
                 <img
                     src="https://flowbite.s3.amazonaws.com/logo.svg"
                     class="mr-3 h-8"

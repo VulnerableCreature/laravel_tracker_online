@@ -6,7 +6,7 @@
 
 <main class="h-full p-4 md:ml-64 pt-20">
     @if($hasLeaveTime === false)
-        <div class="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        <div class="p-4 mb-4 text-lg text-black rounded-lg bg-green-400 dark:bg-gray-800 dark:text-blue-400"
              role="alert">
             <span class="font-medium">Вы сегодня уже посетили работу/учебу!</span>
         </div>
