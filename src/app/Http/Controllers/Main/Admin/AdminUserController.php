@@ -88,7 +88,10 @@ class AdminUserController extends Controller
             'role_id' => $data['role_id'],
         ]);
 
-        $divisionUser = DivisionUser::query()->find($user->id);
+        $divisionUser = DivisionUser::query()
+            ->where('user_id', $user->id)
+            ->first();
+
         $divisionUser->update([
             'division_id' => $data['division_id']
         ]);
